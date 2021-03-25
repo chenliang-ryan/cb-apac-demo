@@ -1,0 +1,23 @@
+{
+    "prepareStatements": [
+        "DROP DATASET demographics IF EXISTS",
+        "DROP DATASET epidemiology IF EXISTS",
+        "DROP DATASET geography IF EXISTS",
+        "DROP DATASET health IF EXISTS",
+        "DROP DATASET `index` IF EXISTS",
+        "DROP DATASET mobility IF EXISTS",
+        "DROP DATASET `policy` IF EXISTS"
+    ],
+    "datasets": [
+        {"name": "demographics", "definition": "CREATE DATASET demographics On covid WHERE `type` = 'demographics'"},
+        {"name": "epidemiology", "definition": "CREATE DATASET epidemiology On covid WHERE `type` = 'epidemiology'"},
+        {"name": "geography", "definition": "CREATE DATASET geography On covid WHERE `type` = 'geography'"},
+        {"name": "health", "definition": "CREATE DATASET health On covid WHERE `type` = 'health'"},
+        {"name": "index", "definition": "CREATE DATASET `index` On covid WHERE `type` = 'index'"},
+        {"name": "mobility", "definition": "CREATE DATASET mobility On covid WHERE `type` = 'mobility'"},
+        {"name": "policy", "definition": "CREATE DATASET `policy` On covid WHERE `type` = 'policy'"}
+    ],
+    "completeStatements": [
+        "CONNECT LOCAL"
+    ]
+}

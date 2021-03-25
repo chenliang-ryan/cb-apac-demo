@@ -1,0 +1,22 @@
+{
+    "name": "Google Covid Open Data",
+    "dataFiles": [
+        {"type": "epidemiology", "url": "https://storage.googleapis.com/covid19-open-data/v2/epidemiology.json", "loadSubregion": false, "key": "%key%::%date%"},
+        {"type": "demographics", "url": "https://storage.googleapis.com/covid19-open-data/v2/demographics.json", "loadSubregion": false, "key": "%key%"},
+        {"type": "geography", "url": "https://storage.googleapis.com/covid19-open-data/v2/geography.json", "loadSubregion": false, "key": "%key%"},
+        {"type": "mobility", "url": "https://storage.googleapis.com/covid19-open-data/v2/mobility.json", "loadSubregion": false, "key": "%key%::%date%"},
+        {"type": "policy", "url": "https://storage.googleapis.com/covid19-open-data/v2/oxford-government-response.json", "loadSubregion": false, "key": "%key%::%date%"},
+        {"type": "health", "url": "https://storage.googleapis.com/covid19-open-data/v2/health.json", "loadSubregion": false, "key": "%key%"},
+        {"type": "index", "url": "https://storage.googleapis.com/covid19-open-data/v2/index.json", "loadSubregion": false, "key": "%key%"}
+    ],
+    "couchbase" : {
+        "host": "localhost",
+        "user": "Administrator",
+        "password": "password",
+        "bucket": {
+            "name": "covid",
+            "definitionFile": "bucket-definition.json"
+        },
+        "cbasDatasetsDefinitionFile": "cbas-datasets-definition.json"
+    }
+}

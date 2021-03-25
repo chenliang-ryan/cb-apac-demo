@@ -1,0 +1,3473 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0217.1203                               -->
+<workbook original-version='18.1' source-build='2020.4.2 (20204.21.0217.1203)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Default.epidemiology (Couchbase.Default.epidemiology)+ (CData)' inline='true' name='federated.0csw41209vuwcy1fol6jg0a9snot' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='LCDEMO66AWS-AS (ODBC)' name='genericodbc.07hh07i1hvrten134a21a1kmy8l5'>
+            <connection class='genericodbc' dbname='CData' odbc-connect-string-extras='' odbc-dbms-name='Couchbase' odbc-driver='CData ODBC Driver for Couchbase' odbc-dsn='LCDEMO66AWS-AS' odbc-suppress-connection-pooling='' odbc-use-connection-pooling='' port='' schema='Couchbase' server='' username=''>
+              <connection-customization class='genericodbc' enabled='false' version='18.1'>
+                <vendor name='Couchbase' />
+                <driver name='CData ODBC Driver for Couchbase' />
+                <customizations>
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_ISOLATION_LEVEL_READ_COMMITTED' value='no' />
+                  <customization name='CAP_ISOLATION_LEVEL_READ_UNCOMMITTED' value='no' />
+                  <customization name='CAP_ISOLATION_LEVEL_REPEATABLE_READS' value='no' />
+                  <customization name='CAP_ISOLATION_LEVEL_SERIALIZABLE' value='no' />
+                  <customization name='CAP_ODBC_BIND_DETECT_ALIAS_CASE_FOLDING' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_EXECUTED_QUERY' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_PREPARED_QUERY' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SELECT_STAR' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='no' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='yes' />
+                  <customization name='CAP_QUERY_FROM_REQUIRES_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_ALLOW_DUPLICATES' value='yes' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='yes' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='no' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='yes' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='yes' />
+                  <customization name='CAP_SET_ISOLATION_LEVEL_VIA_ODBC_API' value='no' />
+                  <customization name='CAP_SET_ISOLATION_LEVEL_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='no' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='SQL_AGGREGATE_FUNCTIONS' value='63' />
+                  <customization name='SQL_CATALOG_NAME_SEPARATOR' value='.' />
+                  <customization name='SQL_CATALOG_USAGE' value='3' />
+                  <customization name='SQL_COLUMN_ALIAS' value='Y' />
+                  <customization name='SQL_CONVERT_FUNCTIONS' value='2' />
+                  <customization name='SQL_DATETIME_LITERALS' value='7' />
+                  <customization name='SQL_DBMS_NAME' value='Couchbase' />
+                  <customization name='SQL_DBMS_VER' value='01.00.0000' />
+                  <customization name='SQL_DRIVER_ODBC_VER' value='03.50' />
+                  <customization name='SQL_DRIVER_VER' value='01.00.0000' />
+                  <customization name='SQL_IDENTIFIER_QUOTE_CHAR' value='`' />
+                  <customization name='SQL_MAX_IDENTIFIER_LEN' value='0' />
+                  <customization name='SQL_NUMERIC_FUNCTIONS' value='8388607' />
+                  <customization name='SQL_ODBC_INTERFACE_CONFORMANCE' value='1' />
+                  <customization name='SQL_ODBC_VER' value='03.80.0000' />
+                  <customization name='SQL_OJ_CAPABILITIES' value='0' />
+                  <customization name='SQL_QUOTED_IDENTIFIER_CASE' value='4' />
+                  <customization name='SQL_SCHEMA_USAGE' value='3' />
+                  <customization name='SQL_SPECIAL_CHARACTERS' value='$' />
+                  <customization name='SQL_SQL92_DATETIME_FUNCTIONS' value='5' />
+                  <customization name='SQL_SQL92_NUMERIC_VALUE_FUNCTIONS' value='18' />
+                  <customization name='SQL_SQL92_PREDICATES' value='7684' />
+                  <customization name='SQL_SQL92_RELATIONAL_JOIN_OPERATORS' value='858' />
+                  <customization name='SQL_SQL92_STRING_FUNCTIONS' value='6' />
+                  <customization name='SQL_SQL92_VALUE_EXPRESSIONS' value='3' />
+                  <customization name='SQL_SQL_CONFORMANCE' value='1' />
+                  <customization name='SQL_STRING_FUNCTIONS' value='425837' />
+                  <customization name='SQL_SYSTEM_FUNCTIONS' value='4' />
+                  <customization name='SQL_TIMEDATE_ADD_INTERVALS' value='511' />
+                  <customization name='SQL_TIMEDATE_DIFF_INTERVALS' value='511' />
+                  <customization name='SQL_TIMEDATE_FUNCTIONS' value='32252' />
+                  <customization name='SQL_TXN_CAPABLE' value='0' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='genericodbc.07hh07i1hvrten134a21a1kmy8l5' name='Default.demographics' table='[Couchbase].[Default.demographics]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='genericodbc.07hh07i1hvrten134a21a1kmy8l5' name='Default.epidemiology' table='[Couchbase].[Default.epidemiology]' type='table' />
+          <relation connection='genericodbc.07hh07i1hvrten134a21a1kmy8l5' name='Default.demographics' table='[Couchbase].[Default.demographics]' type='table' />
+          <relation connection='genericodbc.07hh07i1hvrten134a21a1kmy8l5' name='Default.geography' table='[Couchbase].[Default.geography]' type='table' />
+          <relation connection='genericodbc.07hh07i1hvrten134a21a1kmy8l5' name='Default.index' table='[Couchbase].[Default.index]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[3166-1-alpha-2]' value='[Default.index].[3166-1-alpha-2]' />
+          <map key='[3166-1-alpha-3]' value='[Default.index].[3166-1-alpha-3]' />
+          <map key='[Document.Id (Default.demographics)]' value='[Default.demographics].[Document.Id]' />
+          <map key='[Document.Id (Default.geography)]' value='[Default.geography].[Document.Id]' />
+          <map key='[Document.Id (Default.index)]' value='[Default.index].[Document.Id]' />
+          <map key='[Document.Id]' value='[Default.epidemiology].[Document.Id]' />
+          <map key='[aggregation_level]' value='[Default.index].[aggregation_level]' />
+          <map key='[area]' value='[Default.geography].[area]' />
+          <map key='[clustered_population]' value='[Default.demographics].[clustered_population]' />
+          <map key='[country_code]' value='[Default.index].[country_code]' />
+          <map key='[country_name]' value='[Default.index].[country_name]' />
+          <map key='[datacommons]' value='[Default.index].[datacommons]' />
+          <map key='[date]' value='[Default.epidemiology].[date]' />
+          <map key='[elevation]' value='[Default.geography].[elevation]' />
+          <map key='[human_development_index]' value='[Default.demographics].[human_development_index]' />
+          <map key='[key (Default.demographics)]' value='[Default.demographics].[key]' />
+          <map key='[key (Default.geography)]' value='[Default.geography].[key]' />
+          <map key='[key (Default.index)]' value='[Default.index].[key]' />
+          <map key='[key]' value='[Default.epidemiology].[key]' />
+          <map key='[largest_city_population]' value='[Default.demographics].[largest_city_population]' />
+          <map key='[latitude]' value='[Default.geography].[latitude]' />
+          <map key='[locality_code]' value='[Default.index].[locality_code]' />
+          <map key='[locality_name]' value='[Default.index].[locality_name]' />
+          <map key='[longitude]' value='[Default.geography].[longitude]' />
+          <map key='[new_confirmed]' value='[Default.epidemiology].[new_confirmed]' />
+          <map key='[new_deceased]' value='[Default.epidemiology].[new_deceased]' />
+          <map key='[new_recovered]' value='[Default.epidemiology].[new_recovered]' />
+          <map key='[new_tested]' value='[Default.epidemiology].[new_tested]' />
+          <map key='[open_street_maps]' value='[Default.geography].[open_street_maps]' />
+          <map key='[place_id]' value='[Default.index].[place_id]' />
+          <map key='[population]' value='[Default.demographics].[population]' />
+          <map key='[population_age_00_09]' value='[Default.demographics].[population_age_00_09]' />
+          <map key='[population_age_10_19]' value='[Default.demographics].[population_age_10_19]' />
+          <map key='[population_age_20_29]' value='[Default.demographics].[population_age_20_29]' />
+          <map key='[population_age_30_39]' value='[Default.demographics].[population_age_30_39]' />
+          <map key='[population_age_40_49]' value='[Default.demographics].[population_age_40_49]' />
+          <map key='[population_age_50_59]' value='[Default.demographics].[population_age_50_59]' />
+          <map key='[population_age_60_69]' value='[Default.demographics].[population_age_60_69]' />
+          <map key='[population_age_70_79]' value='[Default.demographics].[population_age_70_79]' />
+          <map key='[population_age_80_89]' value='[Default.demographics].[population_age_80_89]' />
+          <map key='[population_age_80_and_older]' value='[Default.demographics].[population_age_80_and_older]' />
+          <map key='[population_age_90_99]' value='[Default.demographics].[population_age_90_99]' />
+          <map key='[population_density]' value='[Default.demographics].[population_density]' />
+          <map key='[population_female]' value='[Default.demographics].[population_female]' />
+          <map key='[population_male]' value='[Default.demographics].[population_male]' />
+          <map key='[rural_area]' value='[Default.geography].[rural_area]' />
+          <map key='[rural_population]' value='[Default.demographics].[rural_population]' />
+          <map key='[subregion1_code]' value='[Default.index].[subregion1_code]' />
+          <map key='[subregion1_name]' value='[Default.index].[subregion1_name]' />
+          <map key='[subregion2_code]' value='[Default.index].[subregion2_code]' />
+          <map key='[subregion2_name]' value='[Default.index].[subregion2_name]' />
+          <map key='[total_confirmed]' value='[Default.epidemiology].[total_confirmed]' />
+          <map key='[total_deceased]' value='[Default.epidemiology].[total_deceased]' />
+          <map key='[total_recovered]' value='[Default.epidemiology].[total_recovered]' />
+          <map key='[total_tested]' value='[Default.epidemiology].[total_tested]' />
+          <map key='[type (Default.demographics)]' value='[Default.demographics].[type]' />
+          <map key='[type (Default.geography)]' value='[Default.geography].[type]' />
+          <map key='[type (Default.index)]' value='[Default.index].[type]' />
+          <map key='[type]' value='[Default.epidemiology].[type]' />
+          <map key='[urban_area]' value='[Default.geography].[urban_area]' />
+          <map key='[urban_population]' value='[Default.demographics].[urban_population]' />
+          <map key='[wikidata]' value='[Default.index].[wikidata]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Document.Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Document.Id]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>Document.Id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>key</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[key]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>key</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_confirmed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_confirmed]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>new_confirmed</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deceased</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_deceased]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>new_deceased</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_recovered</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[new_recovered]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>new_recovered</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_tested</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[new_tested]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>new_tested</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_confirmed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_confirmed]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>total_confirmed</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_deceased</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_deceased]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>total_deceased</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_recovered</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[total_recovered]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>total_recovered</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_tested</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[total_tested]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>total_tested</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[Default.epidemiology]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Document.Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Document.Id (Default.demographics)]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>Document.Id</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>clustered_population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[clustered_population]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>clustered_population</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>human_development_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[human_development_index]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>human_development_index</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>key</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[key (Default.demographics)]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>key</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>largest_city_population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[largest_city_population]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>largest_city_population</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_00_09</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_00_09]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_00_09</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_10_19</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_10_19]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_10_19</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_20_29</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_20_29]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_20_29</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_30_39</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_30_39]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_30_39</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_40_49</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_40_49]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_40_49</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_50_59</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_50_59]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_50_59</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_60_69</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_60_69]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_60_69</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_70_79</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_70_79]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_70_79</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_80_89</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_80_89]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_80_89</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_80_and_older</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_80_and_older]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_80_and_older</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_age_90_99</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_age_90_99]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_age_90_99</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_density]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_density</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_female</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_female]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_female</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_male</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_male]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>population_male</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rural_population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rural_population]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>rural_population</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[type (Default.demographics)]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>urban_population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[urban_population]</local-name>
+            <parent-name>[Default.demographics]</parent-name>
+            <remote-alias>urban_population</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Document.Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Document.Id (Default.geography)]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>Document.Id</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[area]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>area</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>elevation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[elevation]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>elevation</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>key</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[key (Default.geography)]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>key</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open_street_maps</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[open_street_maps]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>open_street_maps</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rural_area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rural_area]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>rural_area</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[type (Default.geography)]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>urban_area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[urban_area]</local-name>
+            <parent-name>[Default.geography]</parent-name>
+            <remote-alias>urban_area</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>8</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Document.Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Document.Id (Default.index)]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>Document.Id</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3166-1-alpha-2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[3166-1-alpha-2]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>3166-1-alpha-2</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3166-1-alpha-3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[3166-1-alpha-3]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>3166-1-alpha-3</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aggregation_level</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[aggregation_level]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>aggregation_level</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_code]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>country_code</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_name]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>country_name</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>datacommons</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[datacommons]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>datacommons</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>key</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[key (Default.index)]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>key</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>locality_code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[locality_code]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>locality_code</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>locality_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[locality_name]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>locality_name</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>place_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[place_id]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>place_id</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subregion1_code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[subregion1_code]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>subregion1_code</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subregion1_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[subregion1_name]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>subregion1_name</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subregion2_code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[subregion2_code]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>subregion2_code</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subregion2_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[subregion2_name]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>subregion2_name</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[type (Default.index)]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wikidata</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[wikidata]</local-name>
+            <parent-name>[Default.index]</parent-name>
+            <remote-alias>wikidata</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='3166-1-Alpha-2' datatype='string' hidden='true' name='[3166-1-alpha-2]' role='dimension' type='nominal' />
+      <column caption='3166-1-Alpha-3' datatype='string' hidden='true' name='[3166-1-alpha-3]' role='dimension' type='nominal' />
+      <column caption='Rank' datatype='integer' name='[Calculation_580964375928827904]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK_UNIQUE(SUM([total_confirmed]), &apos;desc&apos;)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Tested Positive Rate' datatype='real' default-format='p0.00%' name='[Calculation_580964375938232323]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([new_confirmed]) / SUM([new_tested])' />
+      </column>
+      <column datatype='string' hidden='true' name='[Document.Id (Default.demographics)]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Document.Id (Default.geography)]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Document.Id (Default.index)]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Document.Id]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Default.demographics' datatype='table' name='[__tableau_internal_object_id__].[Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Default.epidemiology' datatype='table' name='[__tableau_internal_object_id__].[Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Default.geography' datatype='table' name='[__tableau_internal_object_id__].[Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Default.index' datatype='table' name='[__tableau_internal_object_id__].[Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00]' role='measure' type='quantitative' />
+      <column caption='Aggregation Level' datatype='integer' hidden='true' name='[aggregation_level]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Area' datatype='real' hidden='true' name='[area]' role='dimension' type='ordinal' />
+      <column caption='Clustered Population' datatype='real' hidden='true' name='[clustered_population]' role='measure' type='quantitative' />
+      <column caption='Country Code' datatype='string' name='[country_code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Name' datatype='string' name='[country_name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Datacommons' datatype='string' hidden='true' name='[datacommons]' role='dimension' type='nominal' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Elevation' datatype='real' hidden='true' name='[elevation]' role='dimension' type='ordinal' />
+      <column caption='Human Development Index' datatype='real' name='[human_development_index]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[key (Default.demographics)]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[key (Default.geography)]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[key (Default.index)]' role='dimension' type='nominal' />
+      <column caption='Key' datatype='string' hidden='true' name='[key]' role='dimension' type='nominal' />
+      <column caption='Largest City Population' datatype='real' hidden='true' name='[largest_city_population]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='dimension' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Locality Code' datatype='string' hidden='true' name='[locality_code]' role='dimension' type='nominal' />
+      <column caption='Locality Name' datatype='string' hidden='true' name='[locality_name]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='dimension' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='New Confirmed' datatype='real' name='[new_confirmed]' role='measure' type='quantitative' />
+      <column caption='New Deceased' datatype='real' name='[new_deceased]' role='measure' type='quantitative' />
+      <column caption='New Recovered' datatype='integer' name='[new_recovered]' role='measure' type='quantitative' />
+      <column caption='New Tested' datatype='integer' name='[new_tested]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Open Street Maps' datatype='real' hidden='true' name='[open_street_maps]' role='dimension' type='ordinal' />
+      <column caption='Place Id' datatype='string' hidden='true' name='[place_id]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='real' name='[population]' role='measure' type='quantitative' />
+      <column caption='Population Age 00 09' datatype='real' hidden='true' name='[population_age_00_09]' role='measure' type='quantitative' />
+      <column caption='Population Age 10 19' datatype='real' hidden='true' name='[population_age_10_19]' role='measure' type='quantitative' />
+      <column caption='Population Age 20 29' datatype='real' hidden='true' name='[population_age_20_29]' role='measure' type='quantitative' />
+      <column caption='Population Age 30 39' datatype='real' hidden='true' name='[population_age_30_39]' role='measure' type='quantitative' />
+      <column caption='Population Age 40 49' datatype='real' hidden='true' name='[population_age_40_49]' role='measure' type='quantitative' />
+      <column caption='Population Age 50 59' datatype='real' hidden='true' name='[population_age_50_59]' role='measure' type='quantitative' />
+      <column caption='Population Age 60 69' datatype='real' hidden='true' name='[population_age_60_69]' role='measure' type='quantitative' />
+      <column caption='Population Age 70 79' datatype='real' hidden='true' name='[population_age_70_79]' role='measure' type='quantitative' />
+      <column caption='Population Age 80 89' datatype='real' hidden='true' name='[population_age_80_89]' role='measure' type='quantitative' />
+      <column caption='Population Age 80 And Older' datatype='real' hidden='true' name='[population_age_80_and_older]' role='measure' type='quantitative' />
+      <column caption='Population Age 90 99' datatype='real' hidden='true' name='[population_age_90_99]' role='measure' type='quantitative' />
+      <column caption='Population Density' datatype='real' hidden='true' name='[population_density]' role='measure' type='quantitative' />
+      <column caption='Population Female' datatype='real' hidden='true' name='[population_female]' role='measure' type='quantitative' />
+      <column caption='Population Male' datatype='real' hidden='true' name='[population_male]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Rural Area' datatype='real' hidden='true' name='[rural_area]' role='dimension' type='ordinal' />
+      <column caption='Rural Population' datatype='real' hidden='true' name='[rural_population]' role='measure' type='quantitative' />
+      <column caption='Subregion1 Code' datatype='string' hidden='true' name='[subregion1_code]' role='dimension' type='nominal' />
+      <column caption='Subregion1 Name' datatype='string' hidden='true' name='[subregion1_name]' role='dimension' type='nominal' />
+      <column caption='Subregion2 Code' datatype='string' hidden='true' name='[subregion2_code]' role='dimension' type='nominal' />
+      <column caption='Subregion2 Name' datatype='string' hidden='true' name='[subregion2_name]' role='dimension' type='nominal' />
+      <column caption='Total Confirmed' datatype='real' name='[total_confirmed]' role='measure' type='quantitative' />
+      <column caption='Total Deceased' datatype='real' name='[total_deceased]' role='measure' type='quantitative' />
+      <column caption='Total Recovered' datatype='integer' name='[total_recovered]' role='measure' type='quantitative' />
+      <column caption='Total Tested' datatype='integer' name='[total_tested]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[type (Default.demographics)]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[type (Default.geography)]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[type (Default.index)]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' hidden='true' name='[type]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Urban Area' datatype='real' hidden='true' name='[urban_area]' role='dimension' type='ordinal' />
+      <column caption='Urban Population' datatype='real' name='[urban_population]' role='measure' type='quantitative' />
+      <column caption='Wikidata' datatype='string' hidden='true' name='[wikidata]' role='dimension' type='nominal' />
+      <column-instance column='[country_code]' derivation='None' name='[none:country_code:nk]' pivot='key' type='nominal' />
+      <column-instance column='[country_name]' derivation='None' name='[none:country_name:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:country_code:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;AR&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BQ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BW&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DJ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;GF&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;IL&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;LA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MN&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;NP&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;TD&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;VN&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AD&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;BI&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;FJ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;GY&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;KG&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MZ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PT&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PW&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SR&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;US&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AI&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BO&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CW&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;EH&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;GA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HT&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;KR&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MH&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NG&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;RO&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SX&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;VC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AZ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BV&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CD&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CX&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;DZ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;GL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;IR&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;LK&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MR&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;PE&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SE&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;TL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;XK&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AQ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AT&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BY&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;DK&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;GG&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;IM&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;LB&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MO&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;NZ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SB&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TG&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;VU&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AL&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BR&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CY&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;GB&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;HU&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;KW&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MK&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;NI&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;NR&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;RS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SY&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;VE&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;BG&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ET&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;GU&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;JP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;KP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;LY&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MX&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;PR&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SN&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;UA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BJ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CR&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;FK&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;HK&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;KH&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MD&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PY&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;UY&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;BE&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CI&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ER&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;GR&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;JM&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LU&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MV&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PK&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SJ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SL&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;TW&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ZM&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AM&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CZ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GD&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ID&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;KY&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ML&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NL&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NU&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;RU&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SZ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;VG&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CF&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;EC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;GM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;HM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;IS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LR&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PF&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SG&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;TN&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;YE&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BB&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;CG&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;EE&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;GN&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;IT&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MT&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;PG&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SH&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SI&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;TR&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;YT&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BF&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CL&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;ES&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;GT&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;JO&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;LV&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MW&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;PL&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;TM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;TZ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;ZW&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;BH&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CN&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;FI&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;GW&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;KE&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MY&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;NF&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;UG&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;AU&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BZ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;GH&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;IN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MP&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;OM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TH&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;WF&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AN&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BT&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;DE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;GE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;GS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;IE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;KZ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MM&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NO&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;RW&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;TC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;UM&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;VI&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AF&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CU&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;FO&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;HN&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;KM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ME&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;NC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;QA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ST&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;TV&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;UZ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BD&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CH&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;EG&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;GQ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;JE&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;KI&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LT&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MU&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PH&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SK&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;TK&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;TT&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ZA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;AS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;AW&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;DO&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;GI&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;IQ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;LI&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MQ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;PA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SD&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;TF&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;TJ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;WS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AG&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BN&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CK&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CV&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FR&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;HR&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;IO&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;KN&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MG&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;NE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SV&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;VA&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:country_name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Brunei&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;French Polynesia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Mayotte&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Samoa&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Suriname&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guernsey&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Jersey&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kosovo&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Marshall Islands&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South Sudan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dominica&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Syria&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Aruba&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;San Marino&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Swaziland&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Anguilla&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Martinique&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Saint Kitts and Nevis&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Chad&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Guam&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bermuda&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Maldives&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;New Caledonia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Réunion&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Somalia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Turks and Caicos Islands&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Barbados&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cayman Islands&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Greenland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Macau&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Antigua and Barbuda&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Curaçao&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hong Kong&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Saint Lucia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;United States of America&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bahamas&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Liechtenstein&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;East Timor&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Gibraltar&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Isle of Man&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Montserrat&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Seychelles&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Wallis and Futuna&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Grenada&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ivory Coast&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Macedonia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sint Maarten&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Belize&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Moldova&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Palestine&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;São Tomé and Príncipe&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;British Virgin Islands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;French Guiana&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Laos&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Saint Vincent and the Grenadines&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;United States Virgin Islands&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Falkland Islands&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Monaco&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Vatican City&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Andorra&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Faroe Islands&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Singapore&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Default.demographics' id='Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C'>
+            <properties context=''>
+              <relation connection='genericodbc.07hh07i1hvrten134a21a1kmy8l5' name='Default.demographics' table='[Couchbase].[Default.demographics]' type='table' />
+            </properties>
+          </object>
+          <object caption='Default.epidemiology' id='Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F'>
+            <properties context=''>
+              <relation connection='genericodbc.07hh07i1hvrten134a21a1kmy8l5' name='Default.epidemiology' table='[Couchbase].[Default.epidemiology]' type='table' />
+            </properties>
+          </object>
+          <object caption='Default.geography' id='Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B'>
+            <properties context=''>
+              <relation connection='genericodbc.07hh07i1hvrten134a21a1kmy8l5' name='Default.geography' table='[Couchbase].[Default.geography]' type='table' />
+            </properties>
+          </object>
+          <object caption='Default.index' id='Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00'>
+            <properties context=''>
+              <relation connection='genericodbc.07hh07i1hvrten134a21a1kmy8l5' name='Default.index' table='[Couchbase].[Default.index]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[key]' />
+              <expression op='[key (Default.demographics)]' />
+            </expression>
+            <first-end-point guaranteed-value='true' object-id='Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F' />
+            <second-end-point object-id='Default.demographics (Couchbase.Default.demographics)_2FF897F0AC314861B779BCEF2A9BC04C' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[key]' />
+              <expression op='[key (Default.geography)]' />
+            </expression>
+            <first-end-point guaranteed-value='true' object-id='Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F' />
+            <second-end-point object-id='Default.geography (Couchbase.Default.geography)_3FC86836456D4767964EB93DF199DA4B' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[key]' />
+              <expression op='[key (Default.index)]' />
+            </expression>
+            <first-end-point guaranteed-value='true' object-id='Default.epidemiology (Couchbase.Default.epidemiology)_6307E419E1A34BA2916DB6AC6E72977F' />
+            <second-end-point object-id='Default.index (Couchbase.Default.index)_725EB59AB38F4DE3AE74768F27EE7F00' unique-key='true' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Confirmed'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Default.epidemiology (Couchbase.Default.epidemiology)+ (CData)' name='federated.0csw41209vuwcy1fol6jg0a9snot' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0csw41209vuwcy1fol6jg0a9snot'>
+            <column caption='Rank' datatype='integer' name='[Calculation_580964375928827904]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RANK_UNIQUE(SUM([total_confirmed]), &apos;desc&apos;)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Country Name' datatype='string' name='[country_name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[country_name]' derivation='None' name='[none:country_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[date]' derivation='None' name='[none:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[total_confirmed]' derivation='Sum' name='[sum:total_confirmed:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Confirmed' datatype='real' name='[total_confirmed]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_580964375928827904]' derivation='User' name='[usr:Calculation_580964375928827904:ok:3]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[federated.0csw41209vuwcy1fol6jg0a9snot].[country_name]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0csw41209vuwcy1fol6jg0a9snot].[none:date:ok]'>
+            <groupfilter expression='DAY([date]) % 2 = 0' function='filter' user:ui-marker='filter-by'>
+              <groupfilter function='level-members' level='[none:date:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0csw41209vuwcy1fol6jg0a9snot].[usr:Calculation_580964375928827904:ok:3]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='1' />
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='2' />
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='3' />
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='4' />
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='5' />
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='6' />
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='7' />
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='8' />
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='9' />
+              <groupfilter function='member' level='[usr:Calculation_580964375928827904:ok:3]' member='10' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0csw41209vuwcy1fol6jg0a9snot].[usr:Calculation_580964375928827904:ok:3]</column>
+            <column>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0csw41209vuwcy1fol6jg0a9snot].[sum:total_confirmed:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0csw41209vuwcy1fol6jg0a9snot].[none:country_name:nk]' />
+              <text column='[federated.0csw41209vuwcy1fol6jg0a9snot].[none:country_name:nk]' />
+              <text column='[federated.0csw41209vuwcy1fol6jg0a9snot].[sum:total_confirmed:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0csw41209vuwcy1fol6jg0a9snot].[usr:Calculation_580964375928827904:ok:3]</rows>
+        <cols>[federated.0csw41209vuwcy1fol6jg0a9snot].[sum:total_confirmed:qk]</cols>
+        <pages>
+          <column>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:date:ok]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{280D89B9-B165-43BE-86C0-655C53291436}' />
+    </worksheet>
+    <worksheet name='Deceased'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Default.epidemiology (Couchbase.Default.epidemiology)+ (CData)' name='federated.0csw41209vuwcy1fol6jg0a9snot' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0csw41209vuwcy1fol6jg0a9snot'>
+            <column caption='Country Code' datatype='string' name='[country_code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Country Name' datatype='string' name='[country_name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='dimension' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='dimension' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[country_code]' derivation='None' name='[none:country_code:nk]' pivot='key' type='nominal' />
+            <column-instance column='[country_name]' derivation='None' name='[none:country_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[date]' derivation='None' name='[none:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[latitude]' derivation='None' name='[none:latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitude]' derivation='None' name='[none:longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_deceased]' derivation='Sum' name='[sum:total_deceased:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Deceased' datatype='real' name='[total_deceased]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0csw41209vuwcy1fol6jg0a9snot].[none:date:ok]'>
+            <groupfilter expression='DAY([date]) % 2 = 0' function='filter' user:ui-marker='filter-by'>
+              <groupfilter function='level-members' level='[none:date:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.0csw41209vuwcy1fol6jg0a9snot].[sum:total_deceased:qk]' field-type='quantitative' max-size='1' min='10000.0' min-size='0.00398671' type='quantsize' />
+            <encoding attr='color' field='[federated.0csw41209vuwcy1fol6jg0a9snot].[sum:total_deceased:qk]' min='1000.0' num-steps='10' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.0csw41209vuwcy1fol6jg0a9snot].[none:longitude:qk]' value='false' />
+            <format attr='in-tooltip' field='[federated.0csw41209vuwcy1fol6jg0a9snot].[none:latitude:qk]' value='false' />
+            <format attr='in-tooltip' field='[federated.0csw41209vuwcy1fol6jg0a9snot].[none:country_code:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.0csw41209vuwcy1fol6jg0a9snot].[none:country_code:nk]' />
+              <lod column='[federated.0csw41209vuwcy1fol6jg0a9snot].[none:country_name:nk]' />
+              <color column='[federated.0csw41209vuwcy1fol6jg0a9snot].[sum:total_deceased:qk]' />
+              <geometry column='[federated.0csw41209vuwcy1fol6jg0a9snot].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:latitude:qk]</rows>
+        <cols>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:longitude:qk]</cols>
+        <pages>
+          <column>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:date:ok]</column>
+        </pages>
+        <page-trail-options enabled='true' />
+      </table>
+      <simple-id uuid='{44D83CF5-A64C-4888-8254-D9F3F2449E51}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Confirmed'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>#2021-03-22#</bucket>
+          </multibucket>
+        </current-page>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:country_name:nk]</field>
+            <field>[federated.0csw41209vuwcy1fol6jg0a9snot].[yr:date:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{0535464F-3EEE-43E6-90FE-CAFA2AB12C46}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Deceased'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card type='currpage' />
+            <card pane-specification-id='0' param='[federated.0csw41209vuwcy1fol6jg0a9snot].[sum:total_deceased:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>#2021-03-22#</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:country_name:nk]</field>
+            <field>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:latitude:qk]</field>
+            <field>[federated.0csw41209vuwcy1fol6jg0a9snot].[none:longitude:qk]</field>
+            <field>[federated.0csw41209vuwcy1fol6jg0a9snot].[sum:total_deceased:qk]</field>
+            <field>[federated.0csw41209vuwcy1fol6jg0a9snot].[yr:date:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{A9443220-A6B1-4C73-9E81-DB507C47F13C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Confirmed' width='192'>
+      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
+      7gAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Deceased' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

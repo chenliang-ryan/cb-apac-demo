@@ -1,0 +1,20 @@
+{
+    "bucketName": "covid",
+    "bucketType": "couchbase",
+    "ramQuotaMB": 4096,
+    "replicaNumber": 0,
+    "flushEnabled": 1,
+    "gsiDefinitions": [
+        {"name": "primary index", "definition": "CREATE PRIMARY INDEX `idx_covid` ON `covid`"},
+        {"name": "idx_covid_key", "definition": "CREATE INDEX `idx_covid_key` ON `covid`(`key`)"},
+        {"name": "idx_covid_type", "definition": "CREATE INDEX `idx_covid_type` ON `covid`(`type`)"},
+        {"name": "idx_covid_date_key", "definition": "CREATE INDEX `idx_covid_date_key` ON `covid`(`date`,`key`)"},
+        {"name": "idx_covid_demographics_key", "definition": "CREATE INDEX `idx_covid_demographics_key` ON `covid`(`key`) WHERE (`type` = 'demographics')"},
+        {"name": "idx_covid_epidemiology_date_key", "definition": "CREATE INDEX `idx_covid_epidemiology_date_key` ON `covid`(`date`,`key`) WHERE (`type` = 'epidemiology')"},
+        {"name": "idx_covid_geography_key", "definition": "CREATE INDEX `idx_covid_geography_key` ON `covid`(`key`) WHERE (`type` = 'geography')"},
+        {"name": "idx_covid_policy_date_key", "definition": "CREATE INDEX `idx_covid_policy_date_key` ON `covid`(`date`,`key`) WHERE (`type` = 'policy')"},
+        {"name": "idx_covid_health_key", "definition": "CREATE INDEX `idx_covid_health_key` ON `covid`(`key`) WHERE (`type` = 'health')"},
+        {"name": "idx_covid_index_key", "definition": "CREATE INDEX `idx_covid_index_key` ON `covid`(`key`) WHERE (`type` = 'index')"},
+        {"name": "idx_covid_mobility_date_key", "definition": "CREATE INDEX `idx_covid_mobility_date_key` ON `covid`(`date`,`key`) WHERE (`type` = 'mobility')"}
+    ]
+}
